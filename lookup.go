@@ -24,6 +24,7 @@ func Lookup(addr string) (string, error){
     if err != nil {
         return "", err
     }
+    defer sam.Close()
     raddrkeys, err := sam.Lookup(addr)
     if err != nil {
         return "", err
