@@ -5,7 +5,7 @@ possible. Sometimes you just need to do one thing.
 
 to install it, use:
 
-        go get -u github.com/eyedeekay/geti2p64
+        go get -u github.com/eyedeekay/geti2p64/lookup
 
 and run
 
